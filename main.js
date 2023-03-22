@@ -1,4 +1,4 @@
-// alert('Verifizierung fehlgeschlagen, bitte erneut ausfüllen.');
+alert('Verifizierung fehlgeschlagen, bitte erneut ausfüllen.');
 function goGo() {
     const contentInputA = 1;
     const contentInputB = 1;
