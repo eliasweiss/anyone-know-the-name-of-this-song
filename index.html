@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QR Weiterleitung</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label>
-        URL des Songs (QR):
+    <label class="form">
+        <span>URL des Songs (QR):</span>
+        <input type="url" name="" id="">
+    </label>
+    <label class="form">
+        <span>Sicherheitsfrage: Was ist auf dem Bild zu sehen?</span>
         <input type="text" name="" id="">
     </label>
-    <button>Senden</button>
+    <button id="send" class="form">Senden</button>
+    <div class="success">
+        <h2>Und der Song heiiiisssssst:</h2>
+        <h1>Sandstorm von Darude!</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y6120QOlsfU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 </body>
 <footer>
     <script src="main.js"></script>

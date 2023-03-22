@@ -11,11 +11,41 @@ body {
     text-align: center;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
-button, input[type=text] {
+body.activated .form {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+label span {
+    display: block;
+    margin: 1rem 0 .3rem 0;
+}
+
+button, input {
+    font-size: 1rem;
+    background-color: white;
     border: none;
     padding: 1rem;
     border-radius: 99999px;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
+.success {
+    display: none;
+}
+
+body.activated .success {
+    display: block;
 }
